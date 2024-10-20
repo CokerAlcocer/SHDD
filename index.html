@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./src/img/shaddai_logo.jpg" type="image/x-icon">
+    <title>Repertorio</title>
+</head>
+
+<body style="overflow: hidden;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./src/img/shaddai_logo.jpg" width="30" height="30" class="d-inline-block align-text-top">
+                El Shaddai Cuernavaca <span class="fw-lighter">| Repertorio de canciones</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="mx-5 px-5 mt-3" style="overflow: hidden;">
+        <section class="row">
+            <article class="col-4">
+                <h3>Repertorio de canciones</h3>
+                <hr>
+                <div class="input-group w-100 mb-3">
+                    <input type="text" name="" id="" class="form-control" placeholder="Buscar por nombre...">
+                    <button class="btn btn-dark rounded-end"><i class="bi bi-search"></i></button>
+                    <button class="btn btn-primary ms-2 rounded-start"><i class="bi bi-brightness-high"></i></button>
+                    <button class="btn btn-info text-white"><i class="bi bi-moon"></i></button>
+                    <button class="btn btn-success"><i class="bi bi-currency-dollar"></i></button>
+                </div>
+                <div id="songs" class="mb-3" style="overflow-x: hidden; overflow-x: auto; max-height: calc(100vh - 550px);">
+                    
+                </div>
+                <div>
+                    <h3>Video guía</h3>
+                    <div class="text-center">
+                        <iframe id="iframe" width="460" height="250" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </article>
+            <article class="col-8 px-5 visually-hidden" id="songPreview">
+                
+            </article>
+        </section>
+    </main>
+</body>
+
+<script src="./src/js/bootstrap.min.bundle.js"></script>
+<script src="./src/js/main.js"></script>
+
+</html>

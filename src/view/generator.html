@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../img/shaddai_logo.jpg" type="image/x-icon">
+    <title>Generador</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/shaddai_logo.jpg" width="30" height="30" class="d-inline-block align-text-top">
+                El Shaddai Cuernavaca <span class="fw-lighter">| Generador de estructuras</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="m-5">
+        <div class="row">
+            <div class="col-4">
+                <h3>Generador de estructura</h3>
+                <hr>
+                <ul class="nav nav-tabs mb-3">
+                    <li role="button" class="nav-item active" onclick="changeView(false)">
+                        <a class="nav-link active" id="tab1">Información de la canción</a>
+                    </li>
+                    <li role="button" class="nav-item" onclick="changeView(true)">
+                        <a class="nav-link" id="tab2">Secciones de la canción</a>
+                    </li>
+                </ul>
+
+                <form class="row g-3" id="info">
+                    <div class="col-12">
+                        <label for="name"><small>Nombre de la canción</small></label>
+                        <input type="text" id="name" onkeyup="modifyName()" class="form-control" autocomplete="off">
+                    </div>
+                    <div class="col-12">
+                        <label for="author"><small>Autor de la canción</small></label>
+                        <input type="text" id="author" onkeyup="modifyAuthor()" class="form-control" autocomplete="off">
+                    </div>
+                    <div class="col-12">
+                        <label for="video"><small>URL del video</small></label>
+                        <input type="text" id="video" onkeyup="modifyVideo()" class="form-control" autocomplete="off">
+                    </div>
+                    <div class="col-4">
+                        <label for="bpm"><small>BPM</small></label>
+                        <input type="number" min="0" value="0" id="bpm" onkeyup="modifyBPM()" class="form-control" autocomplete="off">
+                    </div>
+                    <div class="col-4">
+                        <label for="tone"><small>Tono</small></label>
+                        <select name="" id="tone" class="form-select">
+                            <option value="0">C-Am</option>
+                            <option value="1">C#-A#m</option>
+                            <option value="2">D-Bm</option>
+                            <option value="3">D#-Cm</option>
+                            <option value="4">E-C#m</option>
+                            <option value="5">F-Dm</option>
+                            <option value="6">F#-D#m</option>
+                            <option value="7">G-Em</option>
+                            <option value="8">G#-Fm</option>
+                            <option value="9">A-F#m</option>
+                            <option value="10">A#-Gm</option>
+                            <option value="11">B-G#m</option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <label for="type"><small>Tipo</small></label>
+                        <select name="" id="type" class="form-select" onselect="modifyType()">
+                            <option value="0">Alabanza</option>
+                            <option value="1">Adoración</option>
+                            <option value="2">Ofrenda</option>
+                        </select>
+                    </div>
+                </form>
+
+                <form class="row g-3 visually-hidden" id="section">
+                    <div class="col-12">
+                        <div class="col-12">
+                            <label for="sectionName"><small>Nombre de la sección</small></label>
+                            <input type="text" id="sectionName" class="form-control" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="lyrics"><small>Letra de la estructura</small></label>
+                        <textarea name="" id="lyrics" class="form-control" rows="15" style="font-family: monospace;" autocomplete="off"></textarea>
+                    </div>
+                    <div class="col-12 text-end">
+                        <button type="reset" class="btn btn-secondary">Limpiar formulario</button>
+                        <button type="button" class="btn btn-primary" onclick="addSection()">Añadir sección</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-8">
+                <h3>Resultado de la estructura</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <pre class="mb-0" id="code"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="../js/bootstrap.min.bundle.js"></script>
+<script src="../js/generator.js"></script>
+
+</html>

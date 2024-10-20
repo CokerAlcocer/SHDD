@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Grande y fuerte",
+        "author": "Miel San Marcos",
+        "type": 0,
+        "bpm": 120,
+        "tone": {
+            "value": 5,
+            "desc": "F-Dm"
+        },
+        "section": [
+            {
+                "name": "Verso",
+                "lyrics": "Grande y fuerte es nuestro Dios\n\nGrande y fuerte es nuestro Dios\n\nGrande y fuerte es nuestro Dios\n\nGrande y fuerte es nuestro Dios"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "\nVestido en majestad coronado con poder\n\nDigno de toda la adoración\n\nVestido en majestad coronado con poder\n\nToda gloria y honra sea para ti"
+            },
+            {
+                "name": "Puente",
+                "lyrics": "¡Grande!    ¡Fuerte!\n\n¡Es nuestro Dios!\n\n¡Grande!! y ¡¡Fuerte! ¡Es nuestro   Dios!\n\n¡Grande! y ¡Fuerte! Es nuestro Dios todos"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/YOFJJquEK2k?si=2LPIdiBpNx2wfYxD"
+    },{
+        "name": "ABBA",
+        "author": "Marcos Brunet",
+        "type": 1,
+        "bpm": 80,
+        "tone": {
+            "value": 9,
+            "desc": "A-F#m"
+        },
+        "section": [
+            {
+                "name": "Verso 1",
+                "lyrics": "Escucho tu corazón\n\nCada latido está llamando mi nombre\n\nSoy atraído otra vez por tu sangre\n\nMe siento tan amado por ti"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "Me encuentro en tu corazón\n\nDecidiste aceptarme por siempre\n\nTu amor por mí es tan sorprendente\n\nMe siento tan mimado por ti"
+            },
+            {
+                "name": "Verso 3",
+                "lyrics": "Y es tan bello saber que soy hijo\n\nY que tengo un lugar en tu mesa\n\nNo hay nada mejor que escuchar tu voz\n\nDiciendo nuestra comunión es eterna"
+            },{
+                "name": "Pre coro",
+                "lyrics": "//Oh oh oh//\n\nMe amaste primero\n\nCon amor verdadero\n\n//Oh oh oh//\n\nY mi respuesta es adorar\n\nMi respuesta es adorar\n\nOh oh oh"
+            },{
+                "name": "Coro",
+                "lyrics": "Abba\n\nTu amor nunca falla\n\nSiempre me abraza"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/06CgBZdzwo4?si=kMdun6lwy4g9cAIJ"
+    }
+]
