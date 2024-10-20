@@ -1,5 +1,5 @@
 
-const URL = 'http://localhost:5500'
+const URL = 'https://cokeralcocer.github.io/SHDD'
 let songs = [];
 let song = undefined;
 
