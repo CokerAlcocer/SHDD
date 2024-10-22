@@ -5,8 +5,8 @@
         "type": 0,
         "bpm": 120,
         "tone": {
-            "value": 11,
-            "desc": "B-G#m"
+            "value": 0,
+            "desc": "C-Am"
         },
         "section": [
             {

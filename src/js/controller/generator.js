@@ -14,6 +14,22 @@ let data = {
     video: ""
 };
 
+const getScale = chromatic => {   
+    let tr = document.getElementById('tr');
+    let auxScale = [chromatic[0], `${chromatic[2]}m`, `${chromatic[4]}m`, chromatic[5], chromatic[7], `${chromatic[9]}m`, `${chromatic[11]}º`];
+
+    let content = '<td class="text-center"><small>Acorde</small></td>';
+
+    auxScale.forEach((item, index) => {
+        content += `<td class="text-center">${item}</td>`;
+    });
+
+    tr.innerHTML = content;
+}
+
+getScale(chromatic);
+code.innerText = JSON.stringify(data, null, 4);
+
 const changeView = flag => {
     if(flag) {
         document.getElementById('info').classList.add('visually-hidden');
@@ -54,7 +70,8 @@ selectType.addEventListener('change', () => {
 let selectTone = document.getElementById('tone');
 selectTone.addEventListener('change', () => {
     let toneValue = parseInt(selectTone.value);
-    let auxChromatic = chromatic.slice(toneValue).concat(chromatic.slice(0, toneValue));    
+    let auxChromatic = chromatic.slice(toneValue).concat(chromatic.slice(0, toneValue));   
+    getScale(auxChromatic); 
     data.tone.value = toneValue;
     data.tone.desc = `${auxChromatic[0]}-${auxChromatic[9]}m`;
     code.innerText = JSON.stringify(data, null, 4);
@@ -67,5 +84,3 @@ const addSection = () => {
     });
     code.innerText = JSON.stringify(data, null, 4);
 }
-
-code.innerText = JSON.stringify(data, null, 4);
