@@ -8,13 +8,10 @@
     "description": "Plataforma WEB/PWA con función de repertorio para la iglesia El Shaddai Cuernavaca",
     "icons": [
         {
-            "src": "../img/app-icon.png",
-            "sizes": "180x180",
-            "type": "image/png"
-        },{
             "src": "../img/shdd-icon.png",
             "sizes": "520x520",
             "type": "image/png"
         }
+        
     ]
 }

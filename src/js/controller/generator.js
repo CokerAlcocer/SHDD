@@ -5,7 +5,7 @@ let data = {
     name: "",
     author: "",
     type: 0,
-    bpm: 0,
+    bpm: 120,
     tone: {
         value: 0,
         desc: "C-Am"
