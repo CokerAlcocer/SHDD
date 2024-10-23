@@ -1,0 +1,16 @@
+{
+    "name": "El Shaddai Cuernavaca",
+    "short_name": "SHDD",
+    "start_url": "../../index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "Plataforma WEB/PWA con función de repertorio para la iglesia El Shaddai Cuernavaca",
+    "icons": [
+        {
+            "src": "../img/app-icon.png",
+            "sizes": "302x302",
+            "type": "image/png"
+        }
+    ]
+}
