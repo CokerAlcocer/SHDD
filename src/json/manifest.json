@@ -9,7 +9,11 @@
     "icons": [
         {
             "src": "../img/app-icon.png",
-            "sizes": "302x302",
+            "sizes": "180x180",
+            "type": "image/png"
+        },{
+            "src": "../img/shdd-icon.png",
+            "sizes": "520x520",
             "type": "image/png"
         }
     ]
