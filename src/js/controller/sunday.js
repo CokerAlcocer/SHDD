@@ -1,4 +1,4 @@
-const URL = 'https://cokeralcocer.github.io/SHDD/'
+const URL = 'https://cokeralcocer.github.io/SHDD'
 let songs = [];
 let auxSongs = [];
 let song = {};
