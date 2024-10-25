@@ -1,35 +1,3 @@
 [
-    {
-        "name": "Canción de prueba",
-        "author": "Coker industries",
-        "type": 0,
-        "bpm": 120,
-        "tone": {
-            "value": 0,
-            "desc": "C-Am"
-        },
-        "section": [
-            {
-                "name": "Intro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Verso 1",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Verso 2",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Pre coro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Puente",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            }
-        ],
-        "video": "https://www.youtube.com/embed/YOFJJquEK2k?si=2LPIdiBpNx2wfYxD"
-    }
+    
 ]

@@ -1,9 +1,45 @@
 [
     {
-        "name": "Canción de prueba",
-        "author": "Coker industries",
+        "name": "El Dios que adoramos",
+        "author": "Sovereign Grace Music & la IBI",
         "type": 0,
-        "bpm": 120,
+        "bpm": 110,
+        "tone": {
+            "value": 6,
+            "desc": "F#-D#m"
+        },
+        "section": [
+            {
+                "name": "Intro",
+                "lyrics": "//$1 - $5 - $6m - $4 - $1 - $5//"
+            },
+            {
+                "name": "Verso 1",
+                "lyrics": "    $1                           $5\nEl Dios que hizo los cielos y la tierra\n                     $6m\nCon el poder de Su palabra\n                 $5\nReina con autoridad\n    $1                           $5\nEl Dios que aun los vientos le obedecen\n                    $6m\nUna palabra es suficiente\n                       $5\nPara los muertos levantar"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "    $1                          $5\nEl Dios que descendió desde Su trono\n                       $6m\nPara llevar sobre sus hombros\n                         $4\nNuestra culpa y transgresión\n   $1                  $5\nJesús, exaltado sobre todo\n                   $6m\nNombre sobre todo nombre\n                   $4\nSolo en El hay Salvación"
+            },
+            {
+                "name": "Pre coro",
+                "lyrics": "      $4            $5\nNadie es como El, oh gran Yo Soy"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "            $1\nTú eres el Dios que adoramos\n         $5\nTodopoderoso y Soberano\n              $6m   $4         $1          $5\nGrande en miseri---cordia y poder para salvar\n            $1\nTú eres el Dios que adoramos\n                  $5\nQuien derrotó la muerte y el pecado\n    $6m        $4     $6m  $5\nGlorioso Redentor y Rey, te adoramos"
+            },
+            {
+                "name": "Puente",
+                "lyrics": "$4 - $5 - $4/$6 - $3m\n$4 - $5 - $4/$6 - $5/$7\n\n      $4              $5\nA Él sea la gloria y el poder\n     $4/$6        $5\nTodo es de Él y para El\n      $4              $5\nA Él sea la gloria y el poder\n     $4/$6        $5\nTodo es de Él y para El"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/SepTMXM1St8?si=apmdrNNKMA-sxlFj"
+    },{
+        "name": "Sube más alto",
+        "author": "Conquistando fronteras",
+        "type": 0,
+        "bpm": 134,
         "tone": {
             "value": 0,
             "desc": "C-Am"
@@ -11,25 +47,105 @@
         "section": [
             {
                 "name": "Intro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$1 - $4"
             },
             {
                 "name": "Verso 1",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Verso 2",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$1\nPUEBLOS TODOS VESTIOS DE GLORIA\n                 $4\nSUBID AL MONTE OID SU VOZ\n$1\nSOBRE SION SE LEVANTO\n                 $4\nEN UNA CRUZ EL SALVADOR\n          $1\nSOL DE JUSTICIA\n            $4\nSOL DE JUSTICIA"
             },
             {
                 "name": "Pre coro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$1                            $4\nA LA MONTAÑA MAS ALTA YO SUBIRE\n                            $1          $4\nYO SUBIRE CANTANDO YO CANTARE, YO CANTARE\n$1                            $4\nA LA MONTAÑA MAS ALTA YO SUBIRE\n                            $1          $4\nYO SUBIRE DANZANDO YO DANZARE, YO DANZARE"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "$1                                   $7\nYO SUBIRÉ A LA MONTAÑA MÁS ALTA SUBIRÉ\n                     $6m  $5         $4\nNO DESCANSARÉ YO SUBIRÉ,     YO SUBIRÉ"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "$1                 $7        $6m\nPROSEGUIREMOS EN CONOCERTE\n            $5               $4\nTE PROCLAMAREMOS COMO EL ALBA AL AMANECER"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/6DqDxsLc7_0?si=qnHQ5I-qtSTHCvF7"
+    },{
+        "name": "Rompe el cielo",
+        "author": "Conquistando Fronteras",
+        "type": 0,
+        "bpm": 140,
+        "tone": {
+            "value": 2,
+            "desc": "D-Bm"
+        },
+        "section": [
+            {
+                "name": "Intro",
+                "lyrics": "$6m - $4 - $1 - $3m"
+            },
+            {
+                "name": "Verso 1",
+                "lyrics": "$6m              $1\nYo se que vendrás\n                $2m\nLos cielos romperás\n                $3m               $6m\nTu espíritu caerá, sobre mi ser"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "             $1\nMuertos vivirán\n             $2m\nEnfermos sanarán\n                    $3m\nTu reino se establecerá"
+            },
+            {
+                "name": "Pre coro",
+                "lyrics": "$4                   $5\nCon un encuentro contigo\n             $1\nJamas seré igual\n     $7            $6m-$7-$1-$3m      $4\nDespierta mi espíritu Despierta mi corazón\n         $5\nCon tu amor"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "$1\nRompe el cielo con tu voz\n$6m\nSacude hoy mi corazón\n              $4           $5\nDerrama tu espíritu ven aquí\n"
             },
             {
                 "name": "Puente",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$4               $5                  $1\nHe visto tu gloria, He visto tu poder\n$7              $6m-$7-$1-$3m     $4\nNo me conformare, Yo quiero mas de ti\n             $5\nY no descansare hasta ver tu reino"
             }
         ],
-        "video": "https://www.youtube.com/embed/YOFJJquEK2k?si=2LPIdiBpNx2wfYxD"
+        "video": "https://www.youtube.com/embed/bw5mBSIpQ3k?si=oeUIQJGtLvZGiXsM"
+    },{
+        "name": "Cuan grande es Dios",
+        "author": "En Espíritu y en Verdad",
+        "type": 1,
+        "bpm": 72,
+        "tone": {
+            "value": 0,
+            "desc": "C-Am"
+        },
+        "section": [
+            {
+                "name": "Verso 1",
+                "lyrics": "$1                    $5/$7  $6m\nEl esplendor de un Rey, vestido en Majestad\n                   $4\nLa Tierra alegre está\n                   $5\nLa Tierra alegre está\n\n$1                    $5/$7  $6m\nCubierto está de luz, venció a la oscuridad\n                $4\nY tiembla a Su voz\n              $5\nTiembla a Su voz"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "$1               $5/$7   $6m\nDía a Día El está, Y el tiempo está en El\n                $4\nPrincipio y el fin\n                $5\nPrincipio y el fin\n\n$1                $5/$7   $6m\nLa Trinidad en Dios, El Padre, Hijo, Espíritu\n              $4\nCordero y el León\n              $5\nCordero y el León"
+            },
+            {
+                "name": "Coro 1",
+                "lyrics": "        $1\nCuán Grande es Dios\n $5/$7            $6m\nCántale, Cuán grande es Dios\n$4\nY todos lo verán\n      $5         $1\nCuán grande es Dios"
+            },
+            {
+                "name": "Coro 2",
+                "lyrics": "              $1\nY Tu Nombre sobre todo es\n   $5/$7    $6m\nTu eres Digno de alabar\n     $4\nY mi ser dirá\n       $5        $1\nCuan grande es Dios"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/drFvhcWYS3U?si=NwT_nxWuUFwnz-2u"
+    },{
+        "name": "Nuestro Dios [Fragmento]",
+        "author": "Generación 12",
+        "type": 1,
+        "bpm": 72,
+        "tone": {
+            "value": 7,
+            "desc": "G-Em"
+        },
+        "section": [
+            {
+                "name": "Fragmento",
+                "lyrics": "        $4      $5  $6m\nNuestro Dios reinara\n               $5    $1\nPor siempre tú reinarás"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/v5bE9vrhD1U?si=tQoAYF-RILlVfrz5"
     }
 ]
