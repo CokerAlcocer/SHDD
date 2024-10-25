@@ -12,8 +12,8 @@ const getSongs = async () => {
         }
     }).then(res => res.json()).then(res => {
         songs = res;
+        songs.forEach((item, index) => item.id = index + 1);
         auxSongs = JSON.parse(JSON.stringify(songs));
-        auxSongs.forEach((item, index) => item.id = index + 1);
     }).then(console.log);
 }
 

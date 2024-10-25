@@ -16,7 +16,7 @@ let data = {
 
 const getScale = chromatic => {   
     let tr = document.getElementById('tr');
-    let auxScale = [chromatic[0], `${chromatic[2]}m`, `${chromatic[4]}m`, chromatic[5], chromatic[7], `${chromatic[9]}m`, `${chromatic[11]}º`];
+    let auxScale = [chromatic[0], `${chromatic[2]}m`, `${chromatic[4]}m`, chromatic[5], chromatic[7], `${chromatic[9]}m`, chromatic[11]];
 
     let content = '<td class="text-center"><small>Acorde</small></td>';
 

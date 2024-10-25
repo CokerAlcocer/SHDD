@@ -60,8 +60,8 @@ const showSongInfo = id => {
     });
 
     let auxChromatic = chromatic.slice(auxSong.tone.value).concat(chromatic.slice(0, auxSong.tone.value));
-    let auxScale = [auxChromatic[0], `${auxChromatic[2]}m`, `${auxChromatic[4]}m`, auxChromatic[5], auxChromatic[7], `${auxChromatic[9]}m`, `${auxChromatic[11]}º`];
-    let variables = ['$1', '$2m', '$3m', '$4', '$5', '$6m', '$7º'];
+    let auxScale = [auxChromatic[0], auxChromatic[2], auxChromatic[4], auxChromatic[5], auxChromatic[7], auxChromatic[9], auxChromatic[11]];
+    let variables = ['$1', '$2', '$3', '$4', '$5', '$6', '$7'];
 
     auxSong.section.forEach(item => {
         let lyric = item.lyrics;

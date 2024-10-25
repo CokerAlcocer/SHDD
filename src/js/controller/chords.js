@@ -13,8 +13,8 @@ const getSongs = async () => {
         }
     }).then(res => res.json()).then(res => {
         songs = res;
+        songs.forEach((item, index) => item.id = index + 1);
         auxSongs = JSON.parse(JSON.stringify(songs));
-        auxSongs.forEach((item, index) => item.id = index + 1);
     }).then(console.log);
 }
 
@@ -61,8 +61,8 @@ const showSongInfo = id => {
     });
 
     let auxChromatic = chromatic.slice(auxSong.tone.value).concat(chromatic.slice(0, auxSong.tone.value));
-    let auxScale = [auxChromatic[0], `${auxChromatic[2]}m`, `${auxChromatic[4]}m`, auxChromatic[5], auxChromatic[7], `${auxChromatic[9]}m`, `${auxChromatic[11]}º`];
-    let variables = ['$1', '$2m', '$3m', '$4', '$5', '$6m', '$7º'];
+    let auxScale = [auxChromatic[0], auxChromatic[2], auxChromatic[4], auxChromatic[5], auxChromatic[7], auxChromatic[9], auxChromatic[11]];
+    let variables = ['$1', '$2', '$3', '$4', '$5', '$6', '$7'];
 
     auxSong.section.forEach(item => {
         let lyric = item.lyrics;
@@ -104,8 +104,8 @@ transposeSelect.addEventListener('change', () => {
     auxSong.tone.value = transposeSelect.value;
 
     let auxChromatic = chromatic.slice(auxSong.tone.value).concat(chromatic.slice(0, auxSong.tone.value));
-    let auxScale = [auxChromatic[0], `${auxChromatic[2]}m`, `${auxChromatic[4]}m`, auxChromatic[5], auxChromatic[7], `${auxChromatic[9]}m`, `${auxChromatic[11]}º`];
-    let variables = ['$1', '$2m', '$3m', '$4', '$5', '$6m', '$7º'];
+    let auxScale = [auxChromatic[0], auxChromatic[2], auxChromatic[4], auxChromatic[5], auxChromatic[7], auxChromatic[9], auxChromatic[11]];
+    let variables = ['$1', '$2', '$3', '$4', '$5', '$6', '$7'];
 
     auxSong.tone.desc = `${auxChromatic[0]}-${auxChromatic[9]}m`;
 
