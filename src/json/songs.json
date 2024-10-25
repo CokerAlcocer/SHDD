@@ -1,9 +1,9 @@
 [
     {
-        "name": "Canción de prueba",
-        "author": "Coker industries",
+        "name": "Yo sé",
+        "author": "Marco Barrientos",
         "type": 0,
-        "bpm": 120,
+        "bpm": 100,
         "tone": {
             "value": 11,
             "desc": "B-G#m"
@@ -11,25 +11,109 @@
         "section": [
             {
                 "name": "Intro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$1 - $4-$6m - $4"
             },
             {
                 "name": "Verso 1",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
-            },
-            {
-                "name": "Verso 2",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "    $1                             $6m\nYo sé que si toco hoy tu manto sanaré\n                                    $4\nQue llamaste a Lázaro y vivió otra vez\n                                  $1\nPorque sé que en tu Nombre hay poder\n                                     $6m\nYo sé que con barro en los ojos pude ver\n                              $4\nAl leproso tu tocaste y sano fue\n                                  $1\nPorque sé que en tu Nombre hay poder"
             },
             {
                 "name": "Pre coro",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "         $4\nSiendo Dios\n            $5\nViniste por mí\n     $6m\nEmmanuel\n           $5\nTú estás aquí"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "$1\nTú reinas en victoria y majestad\n                 $6m\nGobiernas en completa autoridad\n              $4              $5\nTú eres el Mesías, eres el Señor,\n              $1\nSolo Tú eres Rey\n$1\nLos reinos y naciones te verán\n             $6m\nTu gloria y poder proclamarán\n              $4              $5\nTú eres el Mesías, eres el Señor,\n              $1\nSolo Tú eres Rey"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "    $1                               $6m\nYo sé que no hay tormenta que resistirá\n                                 $4\nPues al escuchar tu voz se callará\n                                  $1\nPorque sé que en tu Nombre hay poder\n                                     $6m\nY Yo sé que la muerte no te pudo contener\n                                $4\nQue la piedra tú moviste yo lo sé\n       $5                        $6m  $5/$7º-$1\nPorque sé que en tu Nombre hay poder"
+            },
+            {
+                "name": "Interludio",
+                "lyrics": "//$1 - $4-$1//"
+            },
+            {
+                "name": "Puente 1",
+                "lyrics": "$1                                    $4\nVoy a cantar hasta que el mar se abra\n$1                                    $4\nVoy a cantar hasta que los muros caigan\n$1                             $4        $1     $4 - $1 \nVoy a cantar porque creo que milagros harás\n$1                                    $4\nVoy a cantar hasta que el enfermo sane\n$1                                    $4\nVoy a cantar hasta ver al cautivo libre\n$1                             $4        $1     $4 - $1 \nVoy a cantar porque creo que milagros harás"
+            },
+            {
+                "name": "Puente 2",
+                "lyrics": "$1                             $4\nVoy a cantar en el nombre de Jesús\n$1                             $4\nVoy a cantar en el nombre de Jesús\n$1                           $4        $1     $4 - $1 \nVoy a cantar y veremos tu gloria brillar\n$1                             $4\nVoy a cantar porque tu eres digno\n$6m                          $4\nVoy a cantar porque tu lo mereces\n                     $5                  $1\nVoy a cantar porque creo que milagros harás"
+            },
+            {
+                "name": "Final",
+                "lyrics": "                $6m              $4                 $1\n// Tú eres el Mesías, eres el Señor, solo Tú eres Rey //"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/dRv3sV-pxCo?si=UrYF2kDl-U1KAExp"
+    },{
+        "name": "El Dios que adoramos",
+        "author": "Sovereign Grace Music & la IBI",
+        "type": 0,
+        "bpm": 110,
+        "tone": {
+            "value": 6,
+            "desc": "F#-D#m"
+        },
+        "section": [
+            {
+                "name": "Intro",
+                "lyrics": "//$1 - $5 - $6m - $4 - $1 - $5//"
+            },
+            {
+                "name": "Verso 1",
+                "lyrics": "    $1                           $5\nEl Dios que hizo los cielos y la tierra\n                     $6m\nCon el poder de Su palabra\n                 $5\nReina con autoridad\n    $1                           $5\nEl Dios que aun los vientos le obedecen\n                    $6m\nUna palabra es suficiente\n                       $5\nPara los muertos levantar"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "    $1                          $5\nEl Dios que descendió desde Su trono\n                       $6m\nPara llevar sobre sus hombros\n                         $4\nNuestra culpa y transgresión\n   $1                  $5\nJesús, exaltado sobre todo\n                   $6m\nNombre sobre todo nombre\n                   $4\nSolo en El hay Salvación"
+            },
+            {
+                "name": "Pre coro",
+                "lyrics": "      $4            $5\nNadie es como El, oh gran Yo Soy"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "            $1\nTú eres el Dios que adoramos\n         $5\nTodopoderoso y Soberano\n              $6m   $4         $1          $5\nGrande en miseri---cordia y poder para salvar\n            $1\nTú eres el Dios que adoramos\n                  $5\nQuien derrotó la muerte y el pecado\n    $6m        $4     $6m  $5\nGlorioso Redentor y Rey, te adoramos"
             },
             {
                 "name": "Puente",
-                "lyrics": "$1                $2m\nLínea de la letra de la canción\n$3m               $4\nLínea de la letra de la canción\n$5                $6m\nLínea de la letra de la canción\n$7º               $1\nLínea de la letra de la canción"
+                "lyrics": "$4 - $5 - $4/$6m - $3m\n$4 - $5 - $4/$6m - $5/$7º\n\n      $4              $5\nA Él sea la gloria y el poder\n     $4/$6m        $5\nTodo es de Él y para El\n      $4              $5\nA Él sea la gloria y el poder\n     $4/$6m        $5\nTodo es de Él y para El"
             }
         ],
-        "video": "https://www.youtube.com/embed/YOFJJquEK2k?si=2LPIdiBpNx2wfYxD"
+        "video": "https://www.youtube.com/embed/SepTMXM1St8?si=apmdrNNKMA-sxlFj"
+    },{
+        "name": "Sube más alto",
+        "author": "Conquistando fronteras",
+        "type": 0,
+        "bpm": 134,
+        "tone": {
+            "value": 0,
+            "desc": "C-Am"
+        },
+        "section": [
+            {
+                "name": "Intro",
+                "lyrics": "$1 - $4"
+            },
+            {
+                "name": "Verso 1",
+                "lyrics": "$1\nPUEBLOS TODOS VESTIOS DE GLORIA\n                 $4\nSUBID AL MONTE OID SU VOZ\n$1\nSOBRE SION SE LEVANTO\n                 $4\nEN UNA CRUZ EL SALVADOR\n          $1\nSOL DE JUSTICIA\n            $4\nSOL DE JUSTICIA"
+            },
+            {
+                "name": "Pre coro",
+                "lyrics": "$1                            $4\nA LA MONTAÑA MAS ALTA YO SUBIRE\n                            $1          $4\nYO SUBIRE CANTANDO YO CANTARE, YO CANTARE\n$1                            $4\nA LA MONTAÑA MAS ALTA YO SUBIRE\n                            $1          $4\nYO SUBIRE DANZANDO YO DANZARE, YO DANZARE"
+            },
+            {
+                "name": "Coro",
+                "lyrics": "$1                                   $7º\nYO SUBIRÉ A LA MONTAÑA MÁS ALTA SUBIRÉ\n                     $6m  $5         $4\nNO DESCANSARÉ YO SUBIRÉ,     YO SUBIRÉ"
+            },
+            {
+                "name": "Verso 2",
+                "lyrics": "$1                 $7º        $6m\nPROSEGUIREMOS EN CONOCERTE\n            $5               $4\nTE PROCLAMAREMOS COMO EL ALBA AL AMANECER"
+            }
+        ],
+        "video": "https://www.youtube.com/embed/6DqDxsLc7_0?si=qnHQ5I-qtSTHCvF7"
     }
 ]
